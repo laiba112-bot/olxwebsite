@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+ Geneva, Verdana, sans-serif;
+  color: #000;
+
+}
+
+.header{
+  padding: 20px;
+  padding-left: 80px;
+  background-color: #f7f8f7;
+  text-transform: uppercase;
+}
+.header-button{
+  padding: 20px;
+  padding-left: 80px;
+  box-shadow: 0  1px 1px #353333;
+
+}
+.a{
+  text-decoration:none;
+  color: #002f34;
+  font-weight: bold;
+}
+.top-bar-item{
+  display: inline-block;
+  padding: 10px;
+  padding-bottom: 2PX;
+  padding-top: 2PX;
+}
+.header-button{
+  padding-top: 10px;
+  
+}
+.selectinput{
+  padding: 10px;
+  width: 400px;
+}
+.search{
+  width: 30vw;
+}
+.fa {
+  padding: 12px;
+  border-radius: 5px;
+  
+}
+.fa-search{
+  margin-left: 0;
+  background-color: #002f34;
+  color: #f7f8f7;
+}
+.fa-wechat{
+  width: 2px;
+}
+.fa-regular{
+  margin-left: 20px;
+}
+.cell-button{
+  width: 160px;
+  margin-left: 500px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 20px solid;
+  background-color: #fff;
+  border-bottom: 8px solid  #3a77ff;
+  border-top: 8px solid  #3a77ff;
+  border-left: 8px solid #ffce32;
+  border-right: 8px solid #10cfc6;
+}
+.top-bar-item{
+  padding: 10px;
+  font-size: 30px;
+
+}
+.li-labi{
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 30px;
+}
+.li-labi:hover {
+  cursor: pointer;
+  color: #46aca9;
+}
+.text-bold{
+  font-weight: bold;
+}
+.mySlides {
+  display:none;
+  width:100px;
+  border-radius: 5px;
+}
+.img{
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 230px;
+}
+.img2{
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+.cat-area{
+  margin-left:80px ;
+}
+.car-card{
+  max-width: 300px;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  margin: 20px 20px ;
+  padding-right:10px;
+  margin-left: 0;
+}
+.car-card > img{
+   width: 200px;
+}
+.ad-card{
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #ccc9c9;
+  width: 500px;
+  margin: 20px 70px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.h1{
+  margin-left: 30px;
+}
+.ad-card img{
+  width: 100%;
+  height: 250px;
+
+}
+.pricing{
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ad-desc, .location{
+  padding: 10px;
+  font-size: 30px;
+}
+.fa-heart{
+  float: right;
+}
+
+.small-text{
+  font-size: 20px;
+  color: #707070;
+  margin-top: 5px;
+}
+.down{
+  width: 100%;
+  margin-left: 600px;
+}
+.lol{
+  list-style-type: disc;
+}
+.line{
+  font-size: 22px;
+  color: #000000;
+  font-weight: lighter;
+}
+
+.footer{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  background-color:  #f7f8f8;
+}
+.pho{
+  width: 40%;
+  height: 220px;
+}
+.type{
+   padding-top: 40px;
+align-items: center;
+width: 40%;
+background-color:  #f7f8f8;
+height: 200px;
+}
+.word{
+  font-size: 50px;
+  color: black;
+}
+.lin{
+  padding: 20px;
+color: black;
+font-weight: lighter;
+}
+.writ{
+  padding-top: 60px;
+  background-color:  #f7f8f8;
+  width: 40%;
+  
+}
+.down{
+  
+  height: 50px;
+  background-color:#f7f8f8; 
+}
+.up{
+  padding-left: 10px;
+  height: 46px;
+}
+
+.fly{
+  display: flex;
+  padding: 40px;
+}
+.last{
+  background-color: rgb(161, 183, 190);
+  display: flex;
+  margin-right: 20px;
+  padding: 30px;
+  width: 100%;
+  gap: 70px;
+}
+.footer-bottom{
+padding: 10px;
+}
+.dot{
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 100px;
+}
+.bullets{
+  list-style-type: none;
+  display: list-item;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: lighter;
+  margin-left: 100px;
+
+}
+.a:hover{
+  color: black;
+}
+.icon{
+  display: inline-flex ;
+  margin-top: 20px;
+
+}
+.down{
+  margin-left: 0;
+}
+.last{
+  margin-top: 300px;
+  background-color: #cccccc;
+  display: flex;
+  margin-right: 20px;
+  padding: 30px;
+  width: 100%;
+  gap: 70px;
+}
+.footer-bottom{
+padding: 10px;
+}
+.dot{
+  font-size: 30px;
+  font-weight: bold;
+margin-left: 100px;
+}
+.bullets{
+  list-style-type: none;
+  display: list-item;
+  font-size: 25px;
+  color: #707070;
+  padding: 10px;
+  font-weight: lighter;
+  margin-left: 100px;
+
+}
+.social-footer-link{
+  margin-right: 10px;
+}
+.fa-brands{
+  margin-left: 40px;
+}
+.appdownloadimage{
+  margin-top: 5px;
+}
+.footer-credit{
+ text-align: end;
+}
+.footer-credit-bd{
+  background-color: #002f34;
+}
+@media only screen and (max-width:320px){
+  .top-bar-item{
+      width:20px ;}
+  .search,.fa-comment{
+display: none;
+  }
+  .h6{
+      text-align: center;
+      justify-content: center;
+      margin-left: 60px;
+  }
+
+}
